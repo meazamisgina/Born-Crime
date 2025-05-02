@@ -30,12 +30,23 @@ header {
     text-align: center;
     justify-self: center;
     border-top: 10%;
+    p{
+        font-size: 1.5em;
+    }
 
 }
 
-.landing-page p{
+.landing-page h1{
+    background-color: none;
+    font-size: 8em;
+    position: absolute;
     color: white;
+    z-index: 1;
+    padding-top: 22%;
+    left:30%;
+
 }
+
 
 .landing-page img {
     width: 100%;
