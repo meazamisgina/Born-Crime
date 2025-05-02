@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+}
+
+
+body {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/_\ \(2\).jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    border: solid 3px black;
+    border-top-right-radius: 24px;
+    border-top-left-radius: 24px;
+    margin-top: 5%;
+    width: 70vw;
+    margin-left: 14%;
+    height: auto;
+
+}
+
+header {
+    background-color: rgb(142, 231, 231);
+    padding: 2.8%;
+    width: 94.5%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    text-align: center;
+    justify-self: center;
+    border-top: 10%;
+}
+
+.landing-page img {
+    width: 100%;
+    filter: brightness(0.5);
+    height: 100vh;
+    margin: 0;
+}
+
+nav {
+    justify-self: center;
+    position: sticky;
+    width: 100%;
+    background-color: rgb(66, 64, 64);
+}
+
+nav li {
+    list-style: none;
+    color: white;
+}
+
+nav ul {
+    justify-content: center;
+    gap: 10%;
+    display: flex;
+    padding: 1.5%;
+}
+
+nav a {
+    margin-top: 0%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+
+.rename {
+    background-color: rgb(250, 250, 152);
+    height: 50vh;
+    width: fit-content;
+    display: flex;
+    padding: 3%;
+    justify-content: center;
+
+}
+
+.Rename-born-a-crime {
+    background-image: url("Images/Born\ a\ Crime_\ Trevor\ Noah.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+.descrption-of-rename {
+    font-size: 1.2em;
+    width: 40%;
+    padding: 7%;
+    line-height: 1.5em;
+    font-size: 1.5em;
+
+}
+
+.reflective-blog{
+   padding: 5%;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 10%;
+    height: 60vh;
+    background-color:rgb(250, 250, 152);
+    p{
+        width: 75%;
+        padding-top: 2%;
+        margin-left: 15%;
+        font-size: 1.2em;
+        line-height: 1.2em;
+    }
+h1{
+    font-size: 4em;
+    color: rgb(14, 16, 138);
+}
+}
+
+.blog:hover{
+    border-radius: 30px;
+    background-color: gray;
+    padding-top: 2%;
+    /* transform: scale(1); */
+    padding-bottom: 3%;
+}
+
+footer{
+    height: 35vh;
+    color: white;
+    text-align: center;
+    background-color: rgb(31, 29, 29);
+}
+
