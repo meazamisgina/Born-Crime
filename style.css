@@ -30,20 +30,21 @@ header {
     text-align: center;
     justify-self: center;
     border-top: 10%;
-    p{
+
+    p {
         font-size: 1.5em;
     }
 
 }
 
-.landing-page h1{
+.landing-page h1 {
     background-color: none;
     font-size: 8em;
     position: absolute;
     color: white;
     z-index: 1;
     padding-top: 22%;
-    left:30%;
+    left: 30%;
 
 }
 
@@ -53,7 +54,8 @@ header {
     filter: brightness(0.5);
     height: 100vh;
     margin: 0;
-    h1{
+
+    h1 {
         position: absolute;
         color: white;
     }
@@ -87,6 +89,16 @@ nav a {
 }
 
 
+.Rename-born-a-crime h1 {
+    color: white;
+    width: 100%;
+    text-align: center;
+    margin-top: 25%;
+    font-size: 3.5em;
+
+}
+
+
 .rename {
     background-color: rgb(250, 250, 152);
     height: 50vh;
@@ -98,16 +110,10 @@ nav a {
 }
 
 .Rename-born-a-crime {
-    background-image: url("Images/Born\ a\ Crime_\ Trevor\ Noah.jpeg");
-    background-size: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("Images/Born\ a\ Crime_\ Trevor\ Noah.jpeg");
     background-repeat: no-repeat;
-    h1{
-        justify-content: center;
-        margin-top: 1%;
-    }
+    border-radius: 20px;
 }
-
-
 
 .descrption-of-rename {
     font-size: 1.2em;
@@ -118,45 +124,49 @@ nav a {
 
 }
 
-.reflective-blog{
-   padding: 5%;
+.reflective-blog {
+    padding: 5%;
     justify-content: center;
     text-align: center;
     margin-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 18%;
     height: 60vh;
-    background-color:rgb(250, 250, 152);
-    p{
+    background-color: rgb(250, 250, 152);
+
+    p {
         width: 75%;
         padding-top: 2%;
         margin-left: 15%;
         font-size: 1.2em;
         line-height: 1.2em;
     }
-h1{
-    font-size: 4em;
-    color: rgb(14, 16, 138);
-}
+
+    h1 {
+        font-size: 4em;
+        color: rgb(14, 16, 138);
+    }
 }
 
-.blog:hover{
+.blog:hover {
     border-radius: 30px;
     background-color: gray;
     padding-top: 2%;
     padding-bottom: 3%;
 }
 
-footer{
+footer {
     height: 25vh;
     color: white;
     text-align: center;
     background-color: rgb(31, 29, 29);
-    p{
+
+    p {
         font-size: 3.5em;
         padding-top: 5%;
-        border-bottom: solid 1px rgb(170, 162, 162) ;
+        border-bottom: solid 1px rgb(170, 162, 162);
     }
-    h6{
+
+    h6 {
         color: gray;
         padding-top: 3%;
         font-size: 1.5em;
@@ -165,3 +175,352 @@ footer{
 
 }
 
+@media only screen and (max-width:750px) {
+    * {
+        margin: 0;
+    }
+
+
+    body {
+        width: 95%;
+    }
+
+    main {
+        width: 95%;
+        margin-left: 4%;
+
+    }
+
+    header {
+
+        text-align: center;
+        justify-self: center;
+        border-top: 10%;
+
+        p {
+            font-size: 1.1em;
+        }
+
+    }
+
+    .landing-page h1 {
+        background-color: none;
+        font-size: 3em;
+        position: absolute;
+        color: white;
+        z-index: 1;
+        padding-top: 22%;
+        left: 30%;
+
+    }
+
+    .landing-page img {
+        width: 100%;
+        filter: brightness(0.5);
+        height: 50vh;
+
+    }
+
+    nav {
+        justify-self: center;
+        width: 100%;
+        margin-top: -1.5%;
+        background-color: rgb(66, 64, 64);
+    }
+
+    nav li {}
+
+    nav a {
+        font-size: 1em;
+    }
+
+
+    .Rename-born-a-crime h1 {
+        color: white;
+        width: 100%;
+        text-align: center;
+        font-size: 2em;
+
+    }
+
+
+    .rename {
+        padding-top: 10%;
+        width: 94%;
+        height: auto;
+        flex-direction: column;
+
+    }
+
+    .Rename-born-a-crime {
+        background-size: cover;
+        height: auto;
+        width: 100%;
+    }
+
+
+    .descrption-of-rename {
+        width: 100%;
+        font-size: 1.3em;
+    }
+
+    .reflective-blog {
+        height: auto;
+
+        p {
+            font-size: 1.3em;
+            width: 100%;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 2em;
+        }
+
+    }
+
+    #quote {
+        color: rgb(172, 94, 4);
+        font-weight: bold;
+    }
+
+    footer {
+        height: 25vh;
+
+        p {
+            font-size: 2.3em;
+        }
+
+        h6 {
+            font-size: 1.2em;
+        }
+
+    }
+
+
+}
+
+
+@media only screen and (min-width: 751px) and (max-width:999px) {
+
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    main {
+        width: 90%;
+        margin-left: 3%;
+
+
+    }
+
+    header {
+
+        text-align: center;
+        justify-self: center;
+        border-top: 10%;
+
+        p {
+            font-size: 1.4em;
+        }
+
+    }
+
+    .landing-page h1 {
+        font-size: 5.5em;
+        z-index: 1;
+        left: 10%;
+
+    }
+
+    .landing-page img {
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    nav {
+        width: 100%;
+        margin-top: -1%;
+    }
+
+
+    nav a {
+        font-size: 1em;
+    }
+
+
+    .Rename-born-a-crime h1 {
+
+        width: 100%;
+        padding-top: 40%;
+        text-align: center;
+        font-size: 3em;
+
+    }
+
+
+    .rename {
+        padding-top: 10%;
+        width: 94%;
+        height: auto;
+    }
+
+    .Rename-born-a-crime {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .descrption-of-rename {
+        width: 100%;
+        font-size: 1.em;
+    }
+
+    .reflective-blog {
+        height: auto;
+
+        p {
+            font-size: 2em;
+            width: 100%;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+    }
+
+    #quote {
+        color: rgb(172, 94, 4);
+        font-weight: bold;
+    }
+
+    footer {
+        height: 20vh;
+
+        p {
+            font-size: 2.8em;
+        }
+
+        h6 {
+            font-size: 1.2em;
+        }
+
+    }
+
+}
+
+
+
+@media only screen and (min-width:1000px) and (max-width:1600px) {
+    body {
+        width: 100%;
+        margin: 0;
+    }
+
+    main {
+        width: 90%;
+        margin-left: 3%;
+
+
+    }
+
+    header {
+
+        text-align: center;
+        justify-self: center;
+        border-top: 10%;
+
+        p {
+            font-size: 1.4em;
+        }
+
+    }
+
+    .landing-page h1 {
+        font-size: 5.5em;
+        z-index: 1;
+        left: 15%;
+
+    }
+
+    .landing-page img {
+        width: 100%;
+        height: 60vh;
+
+    }
+
+    nav {
+        width: 100%;
+        margin-top: -1%;
+    }
+
+
+    nav a {
+        font-size: 1em;
+    }
+
+
+    .Rename-born-a-crime h1 {
+
+        width: 100%;
+        padding-top: 40%;
+        text-align: center;
+        font-size: 3em;
+
+    }
+
+
+    .rename {
+        padding-top: 10%;
+        width: 94%;
+        height: auto;
+    }
+
+    .Rename-born-a-crime {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .descrption-of-rename {
+        width: 100%;
+        font-size: 1.em;
+    }
+
+    .reflective-blog {
+        height: auto;
+
+        p {
+            font-size: 1.5em;
+            width: 100%;
+            margin: 0;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+    }
+
+    #quote {
+        color: rgb(172, 94, 4);
+        font-weight: bold;
+    }
+
+    footer {
+        height: 20vh;
+
+        p {
+            font-size: 2.8em;
+        }
+
+        h6 {
+            font-size: 1.2em;
+        }
+
+    }
+}
