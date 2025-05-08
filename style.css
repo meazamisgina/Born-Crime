@@ -2,7 +2,13 @@
     margin: 0;
 }
 
-
+.englebert-regular {
+    font-family: "Englebert", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
 body {
 
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("Images/_\ \(2\).jpeg");
@@ -11,7 +17,7 @@ body {
 }
 
 main {
-    border: solid 3px black;
+    border: solid 3px transparent;
     border-top-right-radius: 24px;
     border-top-left-radius: 24px;
     margin-top: 5%;
@@ -22,14 +28,15 @@ main {
 }
 
 header {
-    background-color: rgb(142, 231, 231);
-    padding: 2.8%;
-    width: 94.5%;
+    background-color: rgb(15, 136, 136);
+    padding: 1.5%;
+    width: 97%;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     text-align: center;
     justify-self: center;
     border-top: 10%;
+    font-family: kurale;
 
     p {
         font-size: 1.5em;
@@ -63,6 +70,7 @@ header {
 }
 
 nav {
+    margin: -0.4%;
     justify-self: center;
     position: sticky;
     width: 100%;
@@ -78,7 +86,7 @@ nav ul {
     justify-content: center;
     gap: 10%;
     display: flex;
-    padding: 1.5%;
+    padding: 1.8%;
 }
 
 nav a {
@@ -101,7 +109,6 @@ nav a {
 
 .rename {
     background-color: rgb(250, 250, 152);
-    height: 50vh;
     width: fit-content;
     display: flex;
     padding: 3%;
@@ -113,31 +120,37 @@ nav a {
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url("Images/Born\ a\ Crime_\ Trevor\ Noah.jpeg");
     background-repeat: no-repeat;
     border-radius: 20px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .descrption-of-rename {
     font-size: 1.2em;
     width: 40%;
     padding: 3%;
-    line-height: 1.5em;
-    font-size: 1.5em;
-
+    line-height: 1.3em;
+    font-size: 1.4em;
+}
+.quote{
+    text-align: center;
+    padding: 2%;
+    font-size: 2em;
+    color: rgb(235, 220, 220);
+    background-color: rgb(66, 64, 64);
 }
 
 .reflective-blog {
     padding: 5%;
     justify-content: center;
     text-align: center;
-    margin-top: 5%;
-    padding-bottom: 18%;
-    height: 60vh;
+    padding-bottom: 8%;
     background-color: rgb(250, 250, 152);
 
     p {
         width: 75%;
         padding-top: 2%;
         margin-left: 15%;
-        font-size: 1.2em;
+        font-size: 1.4em;
         line-height: 1.2em;
     }
 
@@ -149,7 +162,7 @@ nav a {
 
 .blog:hover {
     border-radius: 30px;
-    background-color: gray;
+    background-color: white;
     padding-top: 2%;
     padding-bottom: 3%;
 }
@@ -228,7 +241,7 @@ footer {
         background-color: rgb(66, 64, 64);
     }
 
-    nav li {}
+
 
     nav a {
         font-size: 1em;
@@ -256,6 +269,9 @@ footer {
         background-size: cover;
         height: auto;
         width: 100%;
+    }
+    .quote{
+        font-size: 1.5em;
     }
 
 
@@ -370,6 +386,7 @@ footer {
     .Rename-born-a-crime {
         width: 100%;
         height: auto;
+        margin-bottom: 46.5%;
     }
 
 
@@ -412,7 +429,6 @@ footer {
     }
 
 }
-
 
 
 @media only screen and (min-width:1000px) and (max-width:1600px) {
@@ -475,7 +491,7 @@ footer {
 
 
     .rename {
-        padding-top: 10%;
+        padding-top: 8%;
         width: 94%;
         height: auto;
     }
@@ -483,6 +499,8 @@ footer {
     .Rename-born-a-crime {
         width: 100%;
         height: auto;
+
+
     }
 
 
@@ -524,3 +542,4 @@ footer {
 
     }
 }
+
